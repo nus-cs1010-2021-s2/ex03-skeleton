@@ -7,7 +7,7 @@
  * it is to standard output.   The given date must be 1900 or
  * later.
  *
- * @file: day.c
+ * @file: weekday.c
  * @author: XXX (Group YYY)
  */
 #include "cs1010.h"
