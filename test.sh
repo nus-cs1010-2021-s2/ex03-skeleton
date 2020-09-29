@@ -32,7 +32,7 @@ do
 		else 
 			if [ -e $out ] 
 			then
-				if [ `diff -bB $out outputs/$PROG.$i.out | wc -l` -ne 0 ] 
+				if [ `diff $out outputs/$PROG.$i.out | wc -l` -ne 0 ] 
 				then
 					echo "$PROG: incorrect output for test case $i "
 					#cat inputs/$PROG.$i.in
