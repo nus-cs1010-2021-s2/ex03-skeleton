@@ -1,6 +1,6 @@
 .SILENT: test tidy
 SHELL := /bin/bash
-FILES=potion histogram circle weekday 
+FILES=histogram circle weekday 
 CC=clang
 LDLIBS=-lm -lcs1010
 LIB_HOME=~cs1010/lib
